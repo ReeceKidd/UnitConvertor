@@ -6,4 +6,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/energyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/energy_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Energy" />
+        </LinearLayout>
+
+    </GridLayout>
 </android.support.constraint.ConstraintLayout>
