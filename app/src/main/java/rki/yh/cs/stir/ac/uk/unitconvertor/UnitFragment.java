@@ -27,6 +27,15 @@ public class UnitFragment extends Fragment {
         final View rootView = inflater.inflate(R.layout.fragment_unit, container, false);
 
         LinearLayout speedLinearLayout = (LinearLayout) rootView.findViewById(R.id.speedLinearLayout);
+        LinearLayout lengthLinearLayout = (LinearLayout) rootView.findViewById(R.id.lengthLinearLayout);
+        LinearLayout energyLinearLayout = (LinearLayout) rootView.findViewById(R.id.energyLinearLayout);
+        LinearLayout storageLinearLayout = (LinearLayout) rootView.findViewById(R.id.storageLinearLayout);
+        LinearLayout temperatureLinearLayout = (LinearLayout) rootView.findViewById(R.id.temperatureLinearLayout);
+        LinearLayout weightLinearLayout = (LinearLayout) rootView.findViewById(R.id.weightLinearLayout);
+
+        /*
+        Sets up the click events for the navigation buttons
+         */
 
         speedLinearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +44,52 @@ public class UnitFragment extends Fragment {
                 getActivity().startActivity(redirect);
             }
         });
+
+        lengthLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent redirect=new Intent(getActivity(),LengthConvertor.class);
+                getActivity().startActivity(redirect);
+            }
+        });
+
+        energyLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent redirect=new Intent(getActivity(),EnergyConvertor.class);
+                getActivity().startActivity(redirect);
+            }
+        });
+
+        storageLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent redirect=new Intent(getActivity(),StorageConvertor.class);
+                getActivity().startActivity(redirect);
+            }
+        });
+
+        temperatureLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent redirect=new Intent(getActivity(),TemperatureConvertor.class);
+                getActivity().startActivity(redirect);
+            }
+        });
+
+        weightLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent redirect=new Intent(getActivity(),WeightConvertor.class);
+                getActivity().startActivity(redirect);
+            }
+        });
+
+
+
+
+
+
 
         return rootView;
 

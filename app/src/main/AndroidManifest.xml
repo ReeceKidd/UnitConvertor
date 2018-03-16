@@ -22,6 +22,26 @@
         <activity
             android:name=".SpeedConvertor"
             android:label="@string/title_activity_speed_convertor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnergyConvertor"
+            android:label="@string/title_activity_energy_convertor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LengthConvertor"
+            android:label="@string/title_activity_length_convertor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TemperatureConvertor"
+            android:label="@string/title_activity_temperature_convertor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WeightConvertor"
+            android:label="@string/title_activity_weight_convertor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StorageConvertor"
+            android:label="@string/title_activity_storage_convertor"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

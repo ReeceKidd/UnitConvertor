@@ -184,7 +184,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/LinearLayoutTemperature"
+                        android:id="@+id/temperatureLinearLayout"
                         android:layout_width="0dp"
                         android:layout_height="fill_parent"
                         android:layout_margin="5dp"

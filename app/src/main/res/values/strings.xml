@@ -4,4 +4,9 @@
     <string name="tab_text_currency">Currency</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_speed_convertor">SpeedConvertor</string>
+    <string name="title_activity_energy_convertor">EnergyConvertor</string>
+    <string name="title_activity_length_convertor">LengthConvertor</string>
+    <string name="title_activity_temperature_convertor">TemperatureConvertor</string>
+    <string name="title_activity_weight_convertor">WeightConvertor</string>
+    <string name="title_activity_storage_convertor">StorageConvertor</string>
 </resources>
