@@ -30,13 +30,15 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
+                        android:id="@+id/speedLinearLayout"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
+                        android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
                         android:background="@drawable/customborder"
-                        android:padding="10dip"
-                        android:layout_margin="5dp">
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:padding="10dip">
 
                         <ImageView
                             android:id="@+id/speed"
@@ -57,13 +59,15 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/lengthLinearLayout"
                         android:layout_width="0dp"
                         android:layout_height="fill_parent"
+                        android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
                         android:background="@drawable/customborder"
-                        android:padding="10dip"
-                        android:layout_margin="5dp">
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:padding="10dip">
 
                         <ImageView
                             android:id="@+id/length"
@@ -84,13 +88,15 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/weightLinearLayout"
                         android:layout_width="0dp"
                         android:layout_height="fill_parent"
+                        android:layout_margin="5dp"
                         android:layout_weight="1"
-                        android:orientation="vertical"
                         android:background="@drawable/customborder"
-                        android:padding="10dip"
-                        android:layout_margin="5dp">
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:padding="10dip">
 
                         <ImageView
                             android:id="@+id/weight"
@@ -120,13 +126,15 @@
                     android:layout_height="wrap_content">
 
                     <LinearLayout
+                        android:id="@+id/energyLinearLayout"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
+                        android:layout_margin="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/customborder"
+                        android:clickable="true"
                         android:orientation="vertical"
-                        android:padding="10dip"
-                        android:layout_margin="5dp">
+                        android:padding="10dip">
 
                         <ImageView
                             android:id="@+id/energy"
@@ -147,13 +155,15 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
+                        android:id="@+id/storageLinearLayout"
                         android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:padding="10dip"
+                        android:layout_height="fill_parent"
                         android:layout_margin="5dp"
+                        android:layout_weight="1"
                         android:background="@drawable/customborder"
-                        android:layout_height="fill_parent">
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:padding="10dip">
 
                         <ImageView
                             android:id="@+id/storage"
@@ -174,13 +184,15 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
+                        android:id="@+id/LinearLayoutTemperature"
                         android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:padding="10dip"
+                        android:layout_height="fill_parent"
                         android:layout_margin="5dp"
+                        android:layout_weight="1"
                         android:background="@drawable/customborder"
-                        android:layout_height="fill_parent">
+                        android:clickable="true"
+                        android:orientation="vertical"
+                        android:padding="10dip">
 
                         <ImageView
                             android:id="@+id/temperature"
